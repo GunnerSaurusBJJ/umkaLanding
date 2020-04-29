@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-Regular.woff2") format("woff2"), url("SFProDisplay-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "BoomBoomRegular";
+    src: url("../fonts/BoomBoomRegular.eot");
+    src: url("../fonts/BoomBoomRegular/BoomBoomRegular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/BoomBoomRegular.woff") format("woff"), url("../fonts/BoomBoomRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}

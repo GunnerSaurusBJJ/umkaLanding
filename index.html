@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link
+      rel="stylesheet"
+      href="../dist/fancybox-2.1.7/demo/source/jquery.fancybox.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../dist/fancybox-2.1.7/demo/source/helpers/jquery.fancybox-buttons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../dist/fancybox-2.1.7/demo/source/helpers/jquery.fancybox-thumbs.css"
+    />
+
+    <title>Умка</title>
+  </head>
+  <body>
+    <!--body  -->
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <div class="header__adress adress">
+            <div class="header__col-adress adress-cell">
+              <div class="header__col-img adress-img">
+                <img src="./img/header/nav_locat.svg" alt="" />
+              </div>
+              <div class="header__col-content adress-content">
+                <p class="header__col-street adress-street">
+                  Комсомольский р-он ул. Сормовская 204/5
+                </p>
+                <a
+                  href="tel:+7 (999) 63-29-040"
+                  class="header__col-phone adress-phone"
+                  >+7 (999) 63-29-040</a
+                >
+              </div>
+            </div>
+            <div class="header__col-adress adress-cell">
+              <div class="header__col-img adress-img">
+                <img src="./img/header/nav_locat02.svg" alt="" />
+              </div>
+              <div class="header__col-content adress-content">
+                <p class="header__col-street adress-street">
+                  Прикубанский ул. Российская 72/6
+                </p>
+                <a
+                  href="tel:+7 (908) 67-45-747"
+                  class="header__col-phone adress-phone"
+                  >+7 (908) 67-45-747</a
+                >
+              </div>
+            </div>
+            <div class="header__col-adress adress-cell">
+              <div class="header__col-img" adress-img>
+                <img src="./img/header/nav_locat03.svg" alt="" />
+              </div>
+              <div class="header__col-content adress-content">
+                <p class="header__col-street adress-street">
+                  Черемушки ул. Бургасская 45
+                </p>
+                <a
+                  href="tel:+7 (918) 317-45-17"
+                  class="header__col-phone adress-phone"
+                  >+7 (918) 317-45-17</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="container">
+          <div class="header__logo logo">
+            <img src="./img/header/logo.png" alt="logo" />
+            <p>Детский клуб развития и подготовки от 0 до 16 ЛЕТ</p>
+          </div>
+          <div class="header__btn">
+            <a href="#">кнопка с акцией</a>
+          </div>
+          <div class="header__social social">
+            <a href=""><img src="./img/header/ok.png" alt="ok" /></a>
+            <a href=""><img src="./img/header/vk.png" alt="vk" /></a>
+            <a href=""><img src="./img/header/inst.png" alt="insta" /></a>
+          </div>
+        </div>
+      </div>
+      <!--container-->
+    </header>
+    <!-- !section intro -->
+    <section class="intro">
+      <div class="intro__top">
+        <div class="container">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li><a class="menu__item" href="#"> Главная</a></li>
+
+              <li><a class="menu__item" href="#"> О клубе</a></li>
+
+              <li class="list-menu">
+                <a class="menu__item" href="#"> Программы для детей</a>
+                <ul class="menu-list">
+                  <li><a href="#">Программа 1</a></li>
+                  <li><a href="#">Программа 2</a></li>
+                  <li><a href="#">Программа 3</a></li>
+                </ul>
+              </li>
+
+              <li><a class="menu__item" href="#"> Акции</a></li>
+
+              <li><a class="menu__item" href="#"> Фотогалерея</a></li>
+
+              <li><a class="menu__item" href="#"> Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="intro__main">
+        <div class="container">
+          <h2 class="intro__title">
+            Современная сеть детских клубов в Краснодаре
+          </h2>
+          <h4 class="intro__subtitle">
+            Запишитесь на пробное первое занятие
+            <span> Приходи с другом - получи скидку </span>
+          </h4>
+
+          <form class="intro__form">
+            <input
+              class="intro__input input-name"
+              type="text"
+              placeholder="Имя"
+            />
+            <input
+              class="intro__input input-tel"
+              type="text"
+              placeholder="Телефон"
+            />
+            <input
+              class="intro__submit yellow-btn"
+              type="submit"
+              placeholder="Отправить"
+            />
+          </form>
+          <p class="intro__agree">
+            <a href="#">
+              Отправляя форму Вы даете согласие на обработку Ваших персональных
+              данных</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- !section slider -->
+    <section class="section-slider">
+      <div class="container">
+        <div class="slider">
+          <div>
+            <div class="slider__item">
+              <img src="./img/slider/sliderimg.jpg" alt="img" />
+              <div class="slider__content">
+                <h2 class="slider__title">
+                  Приходите на продленку и приводите друзей!
+                </h2>
+                <p class="slider__subtitle">
+                  Приведи 3 друга и получи скидку 50%! Приведи 5 друзей иполучи
+                  абонемент на продленку бесплатно!
+                </p>
+                <a href="#" class="slider__btn yellow-btn">Узнать подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="slider__item">
+              <img src="./img/slider/sliderimg.jpg" alt="img" />
+              <div class="slider__content">
+                <h2 class="slider__title">
+                  Приходите на продленку и приводите друзей!
+                </h2>
+                <p class="slider__subtitle">
+                  Приведи 3 друга и получи скидку 50%! Приведи 5 друзей иполучи
+                  абонемент на продленку бесплатно!
+                </p>
+                <a href="#" class="slider__btn yellow-btn">Узнать подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="slider__item">
+              <img src="./img/slider/sliderimg.jpg" alt="img" />
+              <div class="slider__content">
+                <h2 class="slider__title">
+                  Приходите на продленку и приводите друзей!
+                </h2>
+                <p class="slider__subtitle">
+                  Приведи 3 друга и получи скидку 50%! Приведи 5 друзей иполучи
+                  абонемент на продленку бесплатно!
+                </p>
+                <a href="#" class="slider__btn yellow-btn">Узнать подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- !section category -->
+    <section class="category">
+      <div class="container">
+        <h1 class="category__title section-title">
+          Наши основные направления
+        </h1>
+        <div class="category__wrapper">
+          <div class="category__card">
+            <img src="./img/cat/cat01.png" alt="img" />
+            <div class="category__subtitle">Продленка</div>
+            <a href="#" class="category__btn yellow-btn">оставить заявку</a>
+          </div>
+          <div class="category__card">
+            <img src="./img/cat/cat02.png" alt="img" />
+            <div class="category__subtitle">Базовые</div>
+            <a href="#" class="category__btn yellow-btn">оставить заявку</a>
+          </div>
+          <div class="category__card">
+            <img src="./img/cat/cat03.png" alt="img" />
+            <div class="category__subtitle">Спортивные</div>
+            <a href="#" class="category__btn yellow-btn">оставить заявку</a>
+          </div>
+          <div class="category__card">
+            <img src="./img/cat/cat04.png" alt="img" />
+            <div class="category__subtitle">Детский лагерь</div>
+            <a href="#" class="category__btn yellow-btn">оставить заявку</a>
+          </div>
+          <div class="category__card">
+            <img src="./img/cat/cat05.png" alt="img" />
+            <div class="category__subtitle">Дополнительные</div>
+            <a href="#" class="category__btn yellow-btn">оставить заявку</a>
+          </div>
+          <div class="red-card">
+            <img src="./img/cat/cat06.png" alt="img" />
+            <div class="red-card__text">
+              <h3 class="red-card__title">Узнай</h3>
+              <p class="red-card__subtitle">
+                как получить скидку 50% <span>на любые занятия</span>
+              </p>
+              <a href="#" class="category__btn category__btn-red"
+                >получить скидку</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="modal">
+          <!--category-modal-->
+          <div class="modal-box">
+            <!--category-modal__box-->
+            <h1>Оставьте заявку прямо сейчас</h1>
+            <input type="text" placeholder="Имя" />
+            <input type="text" placeholder="Фамилия" />
+            <input type="text" placeholder="Телефон" />
+            <button>Отправить</button>
+            <a href="#"
+              >Отправляя форму Вы даете согласие на обработку Ваших персональных
+              данных
+            </a>
+            <span class="close">&times;</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- !section advantages -->
+    <section class="advantages">
+      <div class="container">
+        <h1 class="advantages__title section-title">Наши преимущества</h1>
+        <div class="advantages__wrapper">
+          <div class="advantages__col">
+            <div class="advantages__img">
+              <img src="./img/adv/adv01.png" alt="" />
+            </div>
+            <div class="advantages__headline">Опытные педагоги</div>
+            <div class="advantages__parag">
+              Мы рады всем, кто познал радость материнства и отцовства, и тем,
+              кто не представляет своей жизни.
+            </div>
+          </div>
+          <div class="advantages__col">
+            <div class="advantages__img">
+              <img src="./img/adv/adv02.png" alt="" />
+            </div>
+            <div class="advantages__headline">Десятки рекомендаций</div>
+            <div class="advantages__parag">
+              Мы рады всем, кто познал радость материнства и отцовства, и тем,
+              кто не представляет своей жизни.
+            </div>
+          </div>
+          <div class="advantages__col">
+            <div class="advantages__img">
+              <img src="./img/adv/adv03.png" alt="" />
+            </div>
+            <div class="advantages__headline">Большая площадь</div>
+            <div class="advantages__parag">
+              Мы рады всем, кто познал радость материнства и отцовства, и тем,
+              кто не представляет своей жизни.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="advantages__gallery">
+        <a class="fancybox" rel="gallery1" href="./img/adv/galer01.png"
+          ><img src="./img/adv/galer01.png" alt="img"
+        /></a>
+
+        <a class="fancybox" rel="gallery1" href="./img/adv/galer02.png"
+          ><img src="./img/adv/galer02.png" alt="img"
+        /></a>
+
+        <a class="fancybox" rel="gallery1" href="./img/adv/galer03.png"
+          ><img src="./img/adv/galer03.png" alt="img"
+        /></a>
+        <a class="fancybox" rel="gallery1" href="./img/adv/galer04.png"
+          ><img src="./img/adv/galer04.png" alt="img"
+        /></a>
+        <a class="fancybox" rel="gallery1" href="./img/adv/galer05.png"
+          ><img src="./img/adv/galer05.png" alt="img"
+        /></a>
+        <a class="fancybox" rel="gallery1" href="./img/adv/galer06.png"
+          ><img src="./img/adv/galer06.png" alt="img"
+        /></a>
+        <a class="fancybox" rel="gallery1" href="./img/adv/galer07.png"
+          ><img src="./img/adv/galer07.png" alt="img"
+        /></a>
+        <a class="fancybox" rel="gallery1" href="./img/adv/galer08.png"
+          ><img src="./img/adv/galer08.png" alt="img"
+        /></a>
+      </div>
+    </section>
+    <!-- !section call -->
+    <section class="call">
+      <div class="container">
+        <h2 class="call__title">Скорее записывайся к нам на занятия!</h2>
+        <div class="call__wrapper">
+          <div class="call__leftcol">
+            <div class="leftcol-back">
+              <div class="call__subtitle">
+                Позвоните по номеру <br />
+                <span>8(989)808-15-87</span>
+              </div>
+              <div class="call__parag">
+                Или оставьте заявку
+              </div>
+              <form class="call__form">
+                <input class="call__input" type="text" placeholder="Телефон" />
+                <input
+                  class="call__submit yellow-btn"
+                  type="submit"
+                  placeholder="Отправить"
+                />
+              </form>
+              <p class="call__agree">
+                Отправляя форму Вы даете согласие на обработку Ваших
+                персональных данных
+              </p>
+            </div>
+          </div>
+          <div class="call__rightcol">
+            <img src="./img/call/callimg.png" alt="img" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- !section about -->
+    <section class="about">
+      <div class="container">
+        <div class="about__title section-title">Детский клуб "Умка"</div>
+        <div class="about__wrapper">
+          <div class="about__video">
+            <img src="./img/about/aboutimg.png" alt="img" />
+          </div>
+          <div class="about__text">
+            <p>
+              Несомненно, каждый родитель желает только самого лучшего для
+              своего ребенка. Он дарит малышу с первых дней его рождения свою
+              любовь и ласку, чтобы его цветочек жизни ощущал постоянную заботу
+              и рос здоровым, крепким и смышленым. Одним из залогов счастливой
+              жизни ребенка является хорошее воспитание, в основе которого лежит
+              раннее развитие интеллекта. Интеллект, как известно, формируется в
+              первые годы жизни, а его развитие зависит как от генетических
+              факторов, так и от среды, в которой растет ребенок. Специалисты
+              сошлись в едином мнении, что интенсивность нагрузки на мозг
+              ребенка в первые годы его жизни пропорциональна дальнейшему
+              развитию его интеллектуальных способностей.
+            </p>
+            <br />
+            <p>
+              Многих родителей волнует вопрос уникального воспитания, при
+              котором у их ребенка сформировалась бы система качеств личности,
+              собственных взглядов и убеждений. На сегодняшний день большую
+              популярность набирают различные семейные клубы, клубы и школы
+              раннего развития, базирующиеся на системе современного воспитания
+              ребенка.
+            </p>
+          </div>
+          <div class="about-modal">
+            <div class="about-box">
+              <img src="./img/about/aboutimg.png" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section map -->
+    <section class="map">
+      <div class="container">
+        <div class="map__adress adress">
+          <div class="map__col-adress adress-cell">
+            <div class="map__col-img" adress-img>
+              <img src="./img/header/nav_locat.svg" alt="" />
+            </div>
+            <div class="map__col-content adress-content">
+              <p class="map__col-street adress-street">
+                Комсомольский р-он ул. Сормовская 204/5
+              </p>
+              <a
+                href="tel:+7 (999) 63-29-040"
+                class="map__col-phone adress-phone"
+                >+7 (999) 63-29-040</a
+              >
+            </div>
+          </div>
+          <div class="map__col-adress adress-cell">
+            <div class="map__col-img" adress-img>
+              <img src="./img/header/nav_locat02.svg" alt="" />
+            </div>
+            <div class="map__col-content adress-content">
+              <p class="map__col-street adress-street">
+                Прикубанский ул. Российская 72/6
+              </p>
+              <a
+                href="tel:+7 (908) 67-45-747"
+                class="map__col-phone adress-phone"
+                >+7 (908) 67-45-747</a
+              >
+            </div>
+          </div>
+          <div class="map__col-adress adress-cell">
+            <div class="map__col-img" adress-img>
+              <img src="./img/header/nav_locat03.svg" alt="" />
+            </div>
+            <div class="map__col-content adress-content">
+              <p class="map__col-street adress-street">
+                Черемушки ул. Бургасская 45
+              </p>
+              <a
+                href="tel:+7 (918) 317-45-17"
+                class="map__col-phone adress-phone"
+                >+7 (918) 317-45-17</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="map__yandex">
+        <iframe
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa2cf1bc492771449db52599ed0086393cb70a61787fb06553462296c08af3e37&amp;source=constructor"
+          width="100%"
+          height="459"
+          frameborder="0"
+        ></iframe>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__logo logo">
+            <img src="./img/header/logo.png" alt="logo" />
+            <p>Детский клуб развития и подготовки от 0 до 16 ЛЕТ</p>
+          </div>
+          <div class="footer__subtitle">
+            Мы социальных сетях:
+            <div class="footer__social social">
+              <a href=""><img src="./img/header/ok.png" alt="ok" /></a>
+              <a href=""><img src="./img/header/vk.png" alt="vk" /></a>
+              <a href=""><img src="./img/header/inst.png" alt="insta" /></a>
+            </div>
+          </div>
+          <div class="footer__info">
+            <div class="footer__phone">+7 (908) 67-45-747</div>
+            <div class="footer__schedule">
+              Понедельник - пятница:
+              <span class="schedule-yellow">09:00 до 20:00</span> Суббота:
+              <span class="schedule-yellow">09:00 до 15:00</span> <br />
+              Воскресенье:
+              <span class="schedule-red">выходной</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- scripts -->
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
